@@ -1,7 +1,7 @@
 <template>
   <div class="cart">
     <div class="header">
-      <h2>Your selected plant</h2>
+      <h2>Your selected plants</h2>
     </div>
     <div class="itemlist">
       <div class="item" v-for="(plant, index) in plants" :key="index">
